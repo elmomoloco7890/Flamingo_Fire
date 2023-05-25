@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flamingo_Fire</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="flamingo_man">Flamingo man</string>
+    <string name="add_to_cart_txt">Add to Cart</string>
+    <string name="price_label">Price</string>
+    <string name="back_btn_txt">Go Back</string>
+    <string name="back_home_btn_txt">Back To Launch</string>
+    <string name="launch_flamingo_txt">Launch Flamingo</string>
+</resources>

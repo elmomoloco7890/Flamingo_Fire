@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Flamingo_Fire" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/flamingo_red</item>
+    </style>
+
+    <style name="Theme.Flamingo_Fire" parent="Base.Theme.Flamingo_Fire" />
+</resources>

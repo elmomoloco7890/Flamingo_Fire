@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flamingo_fire_nav_graph"
+    app:startDestination="@id/flamingoFireLauncherFragment">
+
+    <fragment
+        android:id="@+id/flamingoFireHomeFragment"
+        android:name="com.artemis.flamingo_fire.ui.fragments.FlamingoFireHomeFragment"
+        android:label="fragment_flamingo_fire_home"
+        tools:layout="@layout/fragment_flamingo_fire_home" >
+        <action
+            android:id="@+id/action_flamingoFireHomeFragment_to_flamingoFireDetailFragment"
+            app:destination="@id/flamingoFireDetailFragment" />
+        <action
+            android:id="@+id/action_flamingoFireHomeFragment_to_flamingoFireLauncherFragment"
+            app:destination="@id/flamingoFireLauncherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flamingoFireDetailFragment"
+        android:name="com.artemis.flamingo_fire.ui.fragments.FlamingoFireDetailFragment"
+        android:label="fragment_flamingo_fire_detail"
+        tools:layout="@layout/fragment_flamingo_fire_detail" >
+        <action
+            android:id="@+id/action_flamingoFireDetailFragment_to_flamingoFireMenuFragment"
+            app:destination="@id/flamingoFireMenuFragment" />
+        <action
+            android:id="@+id/action_flamingoFireDetailFragment_to_flamingoFireLauncherFragment"
+            app:destination="@id/flamingoFireLauncherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flamingoFireMenuFragment"
+        android:name="com.artemis.flamingo_fire.ui.fragments.FlamingoFireMenuFragment"
+        android:label="fragment_flamingo_fire_menu"
+        tools:layout="@layout/fragment_flamingo_fire_menu" >
+        <action
+            android:id="@+id/action_flamingoFireMenuFragment_to_flamingoFireHomeFragment"
+            app:destination="@id/flamingoFireHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flamingoFireLauncherFragment"
+        android:name="com.artemis.flamingo_fire.ui.fragments.FlamingoFireLauncherFragment"
+        android:label="fragment_flamingo_fire_launcher"
+        tools:layout="@layout/fragment_flamingo_fire_launcher" >
+        <action
+            android:id="@+id/action_flamingoFireLauncherFragment_to_flamingoFireHomeFragment"
+            app:destination="@id/flamingoFireHomeFragment" />
+    </fragment>
+</navigation>
