@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472319823217",
+    "project_id": "flamingo-fire",
+    "storage_bucket": "flamingo-fire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472319823217:android:f14bb2047d4bd91dcefad0",
+        "android_client_info": {
+          "package_name": "com.artemis.flamingo_fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472319823217-tgtm3mh6464e1f9hj0n6gsrmp0mdicbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA4A7dhC0auvF_QcclUvChnkcMQ67ToLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472319823217-tgtm3mh6464e1f9hj0n6gsrmp0mdicbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
